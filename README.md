@@ -3,6 +3,7 @@ De code zal van alle boeken in het JSON bestand het ISBN-nummer inlezen.
 Via het ISBN-nummer zoeken we via de API het id van het boek.
 En met dat id kunnen we met de API vinden of het boek nog beschikbaar is in de Hoofdbibliotheek van Gent.
 Dan updaten we in het bestand de availability van alle boeken.
+Als er een ongeldig ISBN-nummer in het bestand stond zal het attribuut available op null staan.
 
 ## Werking API
 Link: https://docs.google.com/spreadsheets/d/1PnyOzCkxSnEWKqmTk6bsnuorAIk27-8yvD2gKf6zq_4/edit#gid=396611154
