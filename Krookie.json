@@ -2,9 +2,9 @@
   "books": [
     {
       "id": "1",
-      "author": "Jef mc jef",
-      "title": "my name jeff",
-      "fact": "he's like the mexican wolverin",
+      "author": "Willem Elsschot",
+      "title": "Kaas",
+      "fact": "De lotgevallen van een ambtenaar die een nieuw leven tracht te beginnen als agent van een kaasimport-firma.",
       "ISBN": 9789025363758,
       "beacon": {
         "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
@@ -18,9 +18,9 @@
     },
     {
       "id": "2",
-      "author": "Marcellus wallas",
-      "title": "DO i LOOK LIKE A BITCH?",
-      "fact": "mercellus wallace does not look like a bitch",
+      "author": "P.G. Wodehouse",
+      "title": "The world of jeeves",
+      "fact": "Jeeves knows his place, and it is between the covers of a book.",
       "ISBN": 9780099514237,
       "beacon": {
         "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
@@ -30,7 +30,39 @@
           "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
         ]
       },
+      "available": "true"
+    },
+    {
+      "id": "3",
+      "author": "Terry Pratchett",
+      "title": "The truth",
+      "fact": "Een schrijver komt in contact met dwergen die een drukpers hebben uitgevonden en begint een krant waarin slechts de waarheid verkondigd mag worden.",
+      "ISBN": 9780552167635,
+      "beacon": {
+        "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
+        "surrounding": [
+          "8DEEFBB9-F738-4297-8040-96668BB44281",
+          "A0B13730-3A9A-11E3-AA6E-0800200C9A66",
+          "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+        ]
+      },
       "available": "false"
+    },
+    {
+      "id": "4",
+      "author": "Jan",
+      "title": "ISBN nummers",
+      "fact": "Het ISBN nummer is niet juist",
+      "ISBN": 1234569,
+      "beacon": {
+        "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
+        "surrounding": [
+          "8DEEFBB9-F738-4297-8040-96668BB44281",
+          "A0B13730-3A9A-11E3-AA6E-0800200C9A66",
+          "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+        ]
+      },
+      "available": null
     }
   ],
   "readingskill": [
