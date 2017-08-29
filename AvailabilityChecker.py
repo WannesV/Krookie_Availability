@@ -22,10 +22,10 @@ class Book:
 
             root = ET.fromstring(r.data)
             id = root[1][0][0].text
-            
+
             #Availability van het boek zoeken
             r = http.request('GET',
-                             'http://zoeken.oost-vlaanderen.bibliotheek.be/api/v0/availability/?id=' + id + '&authorization=f2c359618130a698cca2e6b2736ab9fc&branch=Gent')
+                             'http://zoeken.gent.bibliotheek.be/api/v0/availability/?id=' + id + '&authorization=26f9ce7cdcbe09df6f0b37d79b6c4dc2')
 
             root = ET.fromstring(r.data)
             self.available = root[1][0][0].attrib['available']
