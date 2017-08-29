@@ -17,8 +17,8 @@ class Book:
         if int(validatie.data) == 1:
             #Id van het boek zoeken
             r = http.request('GET',
-                             'http://zoeken.bibliotheek.be/api/v0/search/?q=isbn:' + str(
-                                 self.ISBN) + '&authorization=ac135e89f84460a251a6283a14180a22')
+                             'http://zoeken.bibliotheek.be/api/v0/search/?q=isbn:' + 
+                                 self.ISBN + '&authorization=ac135e89f84460a251a6283a14180a22')
 
             root = ET.fromstring(r.data)
             id = root[1][0][0].text
