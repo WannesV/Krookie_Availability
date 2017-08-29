@@ -23,7 +23,7 @@ Link: https://docs.google.com/spreadsheets/d/1PnyOzCkxSnEWKqmTk6bsnuorAIk27-8yvD
 
 * **Beschikbaarheid zoeken a.d.h.v. id**
 
-     http://zoeken.oost-vlaanderen.bibliotheek.be/api/v0/availability/?id=|library/marc/vlacc|7490283&authorization=f2c359618130a698cca2e6b2736ab9fc
+     http://zoeken.gent.bibliotheek.be/api/v0/availability/?id=|library/marc/vlacc|7490283&authorization=26f9ce7cdcbe09df6f0b37d79b6c4dc2
      
       'library/marc/vlacc|7490283' is het id.
       Geeft een xml terug met informatie over het boek in alle bibliotheken in de steden van Oost-Vlaanderen.
@@ -32,7 +32,7 @@ Link: https://docs.google.com/spreadsheets/d/1PnyOzCkxSnEWKqmTk6bsnuorAIk27-8yvD
 
 * **Beschikbaarheid zoeken a.d.h.v. beid**
 
-     http://zoeken.oost-vlaanderen.bibliotheek.be/api/v0/availability/?beid=7490283&authorization=f2c359618130a698cca2e6b2736ab9fc
+     http://zoeken.gent.bibliotheek.be/api/v0/availability/?beid=7490283&authorization=26f9ce7cdcbe09df6f0b37d79b6c4dc2
      
        '7490283' is het beid.
 
